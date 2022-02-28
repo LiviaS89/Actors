@@ -6,4 +6,6 @@ struct Actor {
     var age: Int
     var image: String
     var trailer: String
+    var birthCountry: String
+    var award: String 
 }

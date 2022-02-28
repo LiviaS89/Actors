@@ -14,7 +14,9 @@ struct PracticeDetails: View {
                 .padding(.bottom,2)
                 .padding(.top,8)
             
-            Text (actor.name)
+            Text (actor.movie)
+           
+            
             
             Image (actor.image)
                 .resizable()
