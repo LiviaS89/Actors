@@ -5,6 +5,12 @@ struct PracticeDetails: View {
     var actor: Actor
     
     var body: some View {
+ 
+        ZStack {
+            
+            Color(.gray)
+        
+        VStack {
         
         VStack (alignment:.leading, spacing:8) {
             Text(actor.movie.uppercased())
@@ -36,4 +42,6 @@ struct PracticeDetails: View {
         }
         .padding (.horizontal, 12)
     }
+}
+}
 }
