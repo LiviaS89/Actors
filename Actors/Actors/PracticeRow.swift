@@ -19,15 +19,15 @@ struct PracticeRow: View {
                 
         
         Text ("Age: \(actor.age) years")
-            .padding(3)
+            .padding(.bottom,4)
             .font(Font.system(size:15))
             
             Text ("Country: \(actor.birthCountry)")
-                .padding(.bottom,3)
-                .font (Font.system(size:14))
+                .padding(.bottom,2)
+                .font (Font.system(size:13))
             
             Text ("Award: \(actor.award)")
-                .padding(3)
+                .padding(.bottom,2)
                 .font(Font.system(size: 13))
                 .foregroundColor(.orange)
     }
