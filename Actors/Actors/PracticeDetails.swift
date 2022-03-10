@@ -35,7 +35,7 @@ struct PracticeDetails: View {
                     
                     Text ("Summary: \(actor.description)")
                         .font(Font.system(size: 12))
-                    
+                     
                     Text ("Release date: \(actor.releaseDate)")
                         .font(Font.system (size: 12))
                     
